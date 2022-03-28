@@ -1,0 +1,60 @@
+.card{
+    margin: 0;
+    background-color:#ffffff;
+    border-radius: 12px;
+    width: 319px;
+    height: 226px;
+    margin-top: 1rem;
+}
+
+.card:hover{
+    box-shadow: 0px 1px 32px rgba(0, 0, 0, 0.15);
+}
+
+img{
+    width:24px;
+    height:24px;
+    margin: 2px;
+}
+.title{
+    font-weight: 600;
+    margin-bottom:0.8rem
+}
+p{  
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #797C80;
+}
+
+.chip{
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 3px 6px;
+    color: #ffffff;
+    font-size: 0.7rem;
+    font-weight:500;
+    margin: 5px
+}
+
+.chip:hover{
+    opacity: 0.8;
+}
+
+.green{
+    background: #44C8D7;
+}
+
+.violet{
+    background: #5457F4;
+
+}
+
+.stroke{
+    stroke:#B7B7B7
+}
+
+.svg:hover{
+    .stroke{
+        stroke:#585858
+    }
+}
