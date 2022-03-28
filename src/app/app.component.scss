@@ -79,6 +79,7 @@ svg{
 
 .fill:hover{
     fill:  #5457F4;
+    transition: all .5s ease 0s
 
 }
 
@@ -89,6 +90,7 @@ svg{
 .man-icon:hover{
     .stroke{
         stroke: #5457F4;
+        transition: all .5s ease 0s
     }
     
 }
@@ -217,3 +219,8 @@ font-weight: 600;
       opacity: 0;
     }
   }
+
+  ::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
